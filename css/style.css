@@ -1,0 +1,198 @@
+﻿@charset "UTF-8";
+/* Общее */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	background: #f7f7f7;
+	font-size: 1em;
+	font-family: Segoe UI, sans-serif;
+	line-height: 135%;
+	background: url(../img/bg/valley16x9.jpg);
+	background-size: 100%;
+	}
+
+
+
+a {
+	text-decoration: none;
+	font-family: Italic, sans-serif;
+	color: #333;
+}
+
+hr {
+	display: block;
+	border: 0px;
+	height: 1px;
+	border-top: 1px solid #ccc;
+	padding: 0px;
+}
+
+/* Теги страницы */
+
+#cancel-searchbox {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	border: 0.5px solid black;
+	border-radius: 20px;
+	margin-top: -10%;
+	margin-left: 15px;
+	opacity: 0;
+	background: url(../img/icons/cancel-search_icon.png);
+	background-size: 100%;
+	background-color: #fff;
+}
+
+#menu {
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 1.7 em;
+	color: #4d2e70;
+	margin-top: 10%;
+}
+
+#main-page-href {
+	width: 300px;
+}
+
+#menu h1 {
+	margin-bottom: 20px;
+	font-family: Comic Sans MS, sans-serif;
+	font-size: 1.7 em;
+	color: #4d2e70;
+}
+
+#menu input {
+	width: 520px;
+	height: 35px;
+	border: 1px solid silver;
+	border-radius: 20px;
+	padding-left: 30px;
+	box-shadow: 0 0 6.5px rgba(0,0,0,0.5);
+}
+
+#menu span img {
+	width: 22px;
+	position: absolute;
+	padding-left: 6.5px;
+	padding-top: 7px;
+}
+
+#search-button {
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	margin-left: 513.5px;
+	margin-top: 7px;
+	border: 0px;
+	border-radius: 20px;
+	opacity: 0;
+	background: url(../img/icons/search_icon.png);
+	background-size: 100%;
+	background-color: #fff;
+}
+
+#menuLinks a, #menuLinks span span {
+	padding: 8px;
+	border-radius: 10px;
+	margin-right: 5px;
+	color: #272a3d;
+	font-size: 1em;
+	font-family: Segoe UI, sans-serif;
+}
+
+#articles {
+	width: 30.5%;
+	margin-left: 33.5%;
+	float: left;
+	border: 1px solid #7bf248;
+	border-radius: 3px;
+	background-color: #f9f9f9;
+	text-align: left;
+	padding: 15px;
+	font-family: Italic, sans-serif;
+	font-size: 0.8em;
+	position: fixed;
+	margin-top: -18%;
+}
+
+#lofi_cancel {
+	margin-left: -3%;
+	margin-top: 0.4%;
+}
+
+#rock_cancel {
+	margin-left: -3.5%;
+	margin-top: 0.4%;
+}
+
+#rap_cancel {
+	margin-left: -3.5%;
+	margin-top: 0.4%;
+}
+
+#classic_cancel {
+	margin-left: -4%;
+	margin-top: 0.4%;
+}
+
+#kpop_cancel {
+	margin-left: -4%;
+	margin-top: 0.4%;
+}
+
+/* Классы страницы */
+
+.bg:hover {
+	background-color: #ececec;
+	cursor: pointer;
+}
+
+.invisible {
+	opacity: 0;
+}
+
+.change {
+	width: 20px;
+	height: 20px;
+	border: 0px;
+	background: url(../img/icons/refresh_icon.png);
+	background-size: 100%;
+	border-radius: 20px;
+	font-size: 0.45em;
+	font-family: Italic, sans-serif;
+	border: 0.5px solid black;
+}
+
+.close {
+	border: 0.4px solid white;
+	background-color: #4285f4;
+	padding: 7px 10px 7px 10px;
+	border-radius: 3px;
+	color: #fff;
+	float: right;
+}
+.close:hover {
+	background-color: #2572f1;
+	cursor: pointer;
+}
+
+.cancel-p-n-p {
+	background: url(../img/icons/cancel-p-n-p_icon.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	opacity: 1;
+}
+
+.bottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
